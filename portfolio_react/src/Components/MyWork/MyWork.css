@@ -58,32 +58,16 @@ font-weight: 500;
 @media (max-width:768px) {
     .mywork{
         width: 100%;
-        margin-left: 120px;
-        align-items: start;
+        margin-left: 50px;
+
     }
-    .mywork-title h1{
-        padding:0;
-        font-size: 50px;
-        font-weight: 600;
-    }
-    .mywork-title img{
-        width: 130px;
-        margin-right: -20px;
-    }
-    .mywork-container{
+    .mywork-container {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
-        width: 108%;
-    }
-    .mywork-container img{
         width: 100%;
-        height: 100%;
     }
-    .mywork-showmore{
-        padding: 20px 40px;
-        font-size: 18px;
-        cursor: pointer;
-        margin-left: 290px;
-    }
+    
 }
+
 

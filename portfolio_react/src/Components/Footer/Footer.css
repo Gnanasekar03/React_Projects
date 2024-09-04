@@ -63,26 +63,15 @@
 @media (max-width:768px) {
     .footer{
         width: 100%;
-        margin: 50px 100px;
-    }
-    .footer-top{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .footer-bottom{
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 50px;
-    }
-    .footer-subscribe{
-        margin-left: 230px;
-    }
-    hr{
-        width: 103%;
-    }
-    .footer-bottom-right{
-        justify-content: space-between;
-    }
+        gap: 15px;
+        margin-left: 75px;
 
+    }
+    .footer-top-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 70px;
+    }
 }
+

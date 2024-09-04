@@ -7,6 +7,7 @@ import menu_close from "../../assets/menu_close.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("Home");
+
   const menuref = useRef();
   const openMenu = () => {
     menuref.current.style.right = "0";
@@ -36,7 +37,7 @@ const Navbar = () => {
         </li>
         <li>
           <AnchorLink className="anchor-link" offset={50} href="#About">
-            <p onClick={() => setMenu("About")}>About Me</p>
+            <p onClick={() => setMenu("About")}>About me</p>
           </AnchorLink>
           {menu == "About" ? <img src={underline} alt="" /> : <></>}
         </li>
