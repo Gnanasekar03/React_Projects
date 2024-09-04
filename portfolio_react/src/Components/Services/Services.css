@@ -1,0 +1,104 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 70px 50px ;
+}
+.services-title{
+    position: relative;
+}
+.services-title h1{
+    padding: 0px 30px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.services-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.services_format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.services-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+.services_format h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.services_format h2{
+    font-size: 30px;
+    font-weight: 600;
+    background:linear-gradient(264deg,#DF8908 -2.09%,#B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services_format p{
+    color:#d4d4d4;
+    font-size: 20px;
+    line-height: 30px;
+}
+.services-readmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.services_format:hover{
+    border: 2px solid #ff00ff;
+    background: linear-gradient(45deg,#3f0028,#582300);
+    transform: scale(1.07);
+    transition: 0.4s;
+}
+@media (max-width:768px){
+    .services{
+        width: 100%;
+        margin-left: 110px;
+        align-items: start;
+        gap: 70px;
+    }
+    .services h1{
+        padding: 0;
+        font-size: 50px;
+    }
+    .services-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .services_format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .services_format h2{
+        font-size: 28px;
+    }
+    .services_format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+    .services-readmore img{
+        width: 20px;
+    }
+    .services-container{
+        width: 115%;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
