@@ -79,6 +79,17 @@ font-weight: 500;
             width: 81%;
         }
     }
+    @media (max-width: 425px) {
+        .mywork {
+            width: 100%;
+            margin: 0;
+        }
+        .mywork-title h1 {
+            padding: 0px 0px;
+            font-size: 50px;
+            font-weight: 500;
+        }
+    }
 
     @media (max-width: 320px) {
         .mywork {
@@ -96,6 +107,7 @@ font-weight: 500;
             gap: 20px;
             width: 100%;
         }
+       
     }
 
 

@@ -66,12 +66,26 @@
     transform: scale(1.07);
     transition: 0.4s;
 }
-@media (max-width:768px) {
+@media (max-width:425px) {
     .services{
         width: 100%;
-        margin-left: 80px;
+        margin: 0;
+    }
+    .services-title h1 {
+        padding: 0px 30px;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin-bottom: 80px;
     }
 }
+
+
+
 @media (max-width: 320px) {
     .services {
         width: 100%;
