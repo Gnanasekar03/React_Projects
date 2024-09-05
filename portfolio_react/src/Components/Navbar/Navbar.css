@@ -12,7 +12,8 @@
     font-weight: 900;
     font-style: normal;
     font-size: 40px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #b923e1 102.06%);
+    /* background: linear-gradient(267deg, #DA7C25 0.36%, #b923e1 102.06%); */
+    background-color: greenyellow;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,10 +74,56 @@
     display: none;
 }
 
+
+
+
+/* Media Query*/
+@media (max-width:425px) {
+    .navbar {
+        width: 100%;
+        margin: 0;
+    }
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 5px;
+        width: 25px;
+        cursor: pointer;
+
+    }
+    .nav-mob-close {
+        display: block;
+        position: relative;
+        left: 170px;
+        top: 28px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .nav-menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1f001f;
+        width: 200px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li {
+        font-size: 20px;
+        padding-left: 20px;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
 /* Media Query*/
 @media (max-width:768px) {
     .navbar{
-        /* width: 100%; */
+        width: 100%;
         margin: 20px 50px;
     }
     .nav-connect{
@@ -118,49 +165,4 @@
         font-style: italic;
         font-weight: bold;
     }    
-}
-
-
-/* Media Query*/
-@media (max-width:320px) {
-    
-    .navbar {
-        width: 100%;
-        margin: 0px;
-    }
-    .nav-mob-open {
-        display: block;
-        position: fixed;
-        right: 5px;
-        width: 25px;
-        cursor: pointer;
-
-    }
-    .nav-mob-close {
-        display: block;
-        position: relative;
-        left: 170px;
-        top: 28px;
-        width: 20px;
-        cursor: pointer;
-    }
-    .nav-menu {
-        position: fixed;
-        flex-direction: column;
-        align-items: start;
-        top: 0;
-        gap: 30px;
-        background-color: #1f001f;
-        width: 200px;
-        height: 100%;
-        z-index: 2;
-        transition: right 0.5s;
-        right: -350px;
-    }
-    .nav-menu li {
-        font-size: 20px;
-        padding-left: 20px;
-        flex-direction: row;
-        gap: 10px;
-    }
 }
