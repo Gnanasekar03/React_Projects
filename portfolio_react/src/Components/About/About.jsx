@@ -32,10 +32,10 @@ const About = () => {
           </div>
 
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p> <hr style={{ width:"50%"}} /></div>
-                <div className="about-skill"><p>JavaScript</p> <hr style={{ width:"65%"}} /></div>
+                <div className="about-skill"><p>HTML & CSS</p> <hr style={{ width:"45%"}} /></div>
+                <div className="about-skill"><p>JavaScript</p> <hr style={{ width:"80%"}} /></div>
                 <div className="about-skill"><p>React Js</p> <hr style={{ width:"70%"}} /></div>
-                <div className="about-skill"><p>Java & Sql </p> <hr style={{ width:"60%"}} /></div>
+                <div className="about-skill"><p>Java & Sql </p> <hr style={{ width:"50%"}} /></div>
             </div>
           </div>
         </div>
