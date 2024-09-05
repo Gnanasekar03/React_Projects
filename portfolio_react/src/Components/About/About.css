@@ -91,12 +91,13 @@
     }
     
 }
-@media (max-width:480px) {
+@media (max-width:320px) {
     .about{
         width: 100%;
         margin: 0;
         gap: 30px;
     }
+    
     .about-title h1 {
         padding: 0px 30px;
         font-size: 50px;

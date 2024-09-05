@@ -80,7 +80,7 @@ font-weight: 500;
         }
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
         .mywork {
             width: 100%;
             margin: 0;

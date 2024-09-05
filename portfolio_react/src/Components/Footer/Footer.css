@@ -74,7 +74,7 @@
         margin-top: 70px;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     .footer {
         width: 100%;
         gap: 15px;
