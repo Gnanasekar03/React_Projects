@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-anchor-link-smooth-scroll": "^1.0.12"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "yarn": "^1.22.22"
   }
 }
